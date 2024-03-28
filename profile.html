@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인 프로필 페이지</title>
+</head>
+<body>
+    <header id="top">
+        <h1>개인 프로필 페이지</h1> <hr>
+        <h3>🦁 12기 프론트엔드 아기사자</h3>
+        앞으로 활동 화이팅~~~~~<br />
+        <hr />
+    </header>
+    <b>❗개인 페이지</b>
+      <nav>
+        <ul>
+          <li>개인 깃허브 : <a href="https://github.com/reoncord">GITHUB</a></li>
+          <li>개인 블로그 : <a href="https://blog.naver.com/re-on-cord">NAVER BLOG</a></li>
+          <li>이메일 : <a href="mailto:rmarbf@sungkyul.ac.kr">G-MAIL</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <br />
+      <main>
+        <form>
+          <fieldset>
+            <legend>내 정보 </legend>
+            <table>
+              <tr>
+                <th>
+                  <label for="name">이름</label>
+                </th>
+                <td colspan="2"><input type="text" id="name" /></td>
+              </tr>
+              <tr>
+                <th>
+                  <label for="major">학과</label>
+                </th>
+                <td colspan="2"><input type="text" id="major" /></td>
+              </tr>
+              <tr>
+                <th>성별</th>
+                <td>
+                  <label for="woman">여자</label>
+                  <input type="radio" id="woman" name="gender" value="w" />
+                </td>
+                <td>
+                  <label for="man">남자</label>
+                  <input type="radio" id="man" name="gender" value="m" />
+                </td>
+              </tr>
+              <tr>
+                <th>단과대</th>
+                <td>
+                  <select>
+                    <option>인문대학</option>
+                    <option>공과대학</option>
+                    <option>예술대학</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <th rowspan="2">자신있는 과목</th>
+                <td>
+                  <input type="checkbox" name="Korean" id="Korean" />
+                  <label for="Korean">국어</label>
+                </td>
+                <td>
+                  <input type="checkbox" name="math" id="math" />
+                  <label for="math">수학</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="english" id="english" />
+                  <label for="english">영어</label>
+                </td>
+                <td>
+                  <input type="checkbox" name="science" id="science" />
+                  <label for="science">과학</label>
+                </td>
+              </tr>
+              <td colspan="3"><hr></td>
+              <tr>
+                  <td></td>
+                  <td><input type="reset" value="초기화" /></td>
+                  <td>ㅤ<input type="submit" value="제출" /></td>
+              </tr>
+            </table>
+          </fieldset>
+          <br><br><hr>
+          <h2>💥최근 취미</h2>
+          <ul><li><b>아이패드 3D 모델링</b></li><br>
+          <video src="메로나.mp4" controls type="video/mp4" height="300px" alt="메로나 모델링 영상"></video>
+          <img src="heart1.jpg" height="250px" alt="3D 모델링 하트">
+          <img src="doublelineHeart.jpg" height="250px" alt="더블라인 모델링 하트">
+        </ul>
+        </form>
+      </main>
+      <hr>
+      <footer>
+        <p><b>&copy; 멋쟁이사자처럼 대학 12기 프론트엔드</b></p>
+        <div style="margin-left: 25px;">
+            <a href="https://github.com/reoncord">GITHUB</a>
+            <a href="https://blog.naver.com/re-on-cord">NAVER BLOG</a>
+            <a href="mailto:rmarbf@sungkyul.ac.kr">G-MAIL</a>
+            ㅤㅤ<a href="#top">처음으로 돌아가기</a>
+        </div>
+      </footer>
+</body>
+</html>
