@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--css 연결-->
+    <link rel="stylesheet" href="introduce.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--외부소스_폰트 적용-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+</head>
+
+<!--nav상단바 고정! nav바 추가-->
+<body>
+    <nav>
+        <ul class="navContainer"> <!--ul이 부모요소가 되니까 밑의 자식요소까지 다 적용됨-->
+            <li class="navTitle">JIYOUNG'S PROFILE!</li>
+            <div class="navContent"> <!--인스타는navContent로 div태그 묶음. 인스타이름이 기니까 새로 지정한거-->
+            <li class=""><a href="https://www.instagram.com/jidangee/">instagram</a></li></div>    
+        </ul>        
+    </nav>
+
+    <!--div 태그 추가해서 header태그를 넣기-->
+        <header> <!--헤더태그도 수정완.h1,h2,h3로-->
+            <div class="container">
+            <div class="mainContent">
+                    <h1 id="#top">강지영</h1> <!--hi태그 취소하고 p태그로 바꺼야 할듯-->
+                    <h2>"안녕하세요! 12기 아기사자 강지영입니다."</h2>
+                    <h3>아직 많이 부족하지만 열심히 하겠습니다♡</h3>
+                <nav><!---->
+                    <img src ="images/mudo.jpg" class="profile" width="900" height="560"> <!--너비와 높이 변화도 줌 -->
+                </nav>
+            </div>
+            </div>
+    </header>
+
+    <!--여기서부터 자기소개서박스란-->
+    <main>
+        <form>
+            <fieldset>
+                <legend><자기소개></legend>
+                    <div class="grid"> <!--grid라는 내용을 가진 class 만들어줌--> 
+                            <p class="box">이름 : </p> <p>강지영</p>
+                            <p class="box">나이 : </p> <p>26</p>
+                            <p class="box">학과 : </p> <p>글로벌물류학부</p>
+                            <p class="box">복수전공 : </p> <p>산업경영공학과</p> 
+                            <p class="box">MBTI :</p> <p>ISFJ</p>
+                            <p class="box">성별 : </p><p> <input type="radio">여자</p>
+                            <p></p><p class="gender"> <input type="radio">남자</p>
+                            <p class="box">취미 : </p> <p> <input type="checkbox">무한도전 보기</p>
+                            <p></p><p class="hobby"> <input type="checkbox">친구랑 카페 가기</p>
+                            <p></p><p class="hobby"> <input type="checkbox">영화 보기</p>
+                            <p></p><p class="hobby"> <input type="checkbox">옷 구경</p> </div>                                                         
+            </fieldset>
+        </form>
+    </main>
+    <hr>
+        <footer>
+            <p>&copy; <b>멋쟁이사자처럼 12기 강지영</b></p>
+                <div> <!--아이콘을 a태그 앞에 넣었다!-->
+                    <i class="bi bi-caret-up-square"></i><a href= "#top"> 위로~~ </a>
+                </div>
+        </footer>
+</body>
+</html>

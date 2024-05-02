@@ -1,0 +1,74 @@
+/*폰트 기본 설정*/
+* {
+   font-family: "Gowun Dodum", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+}
+   
+/*nav바꾸미기(제일 상단)*/
+.navContainer {
+   display:flex;
+   list-style:none;
+   justify-content: space-between;
+   padding: 5px 10px;
+   background-color: bisque;
+   border: 4px dotted pink; /*경계선 */
+   position:fixed; /*nav바는 고정시켜서 스크롤 내려도 따라오게!*/
+   width: 90%; /*너비를 90%정도만 줘서 instagram글자가 다 보이도록함*/
+   top: 0;
+}
+
+/*header태그꾸미기*/
+.navTitle {
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.navContent {
+   display: flex;
+   font: size 20px;
+}
+
+.container {
+   display: flex;
+   justify-content: center;  
+   margin: 90px; /*바깥여백 즉, margin을 줘서 nav바가 가리지 않도록!*/
+}
+
+/*소개 내용 grid로 꾸미기*/
+fieldset {
+   width: 500px; /* 너비 설정 */
+   padding: 30px 30px ; /* 안쪽 여백 설정->상하/좌우로 */
+   margin: 0px 350px; /*margin속성 값 2개만 줌으로써, 좌우에만 값을 부여*/
+   border: 2px solid #ccc; /* 테두리 설정 */
+   background-color: rgb(239, 223, 226)
+}
+/*fieldest내용 폰트 굵기 */
+.box {
+   font-weight: bold;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 10px; /* 그리드 아이템 사이의 간격 */
+   margin: 0px 80px; /*좌우에 margin을 줘서 좀 더 중앙으로 모이게*/
+}
+
+/*footer 전체 요소 스타일 */
+footer {
+   text-align: right;
+   /*color: rgb(240, 46, 81)*/
+   padding:10px 0; /*위아래 여백 설정*/
+
+}
+/*볼드체 스타일 적용*/
+footer b {
+   font-weight: bold;
+}
+/*링크 꾸미기*/
+footer a {
+   text-decoration: none;
+   color: blue;
+}
