@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <link rel="stylesheet" href="csss.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    
+<div class="myProfile">
+    <div class="nav flex justify-between shadow-lg fixed bg-white w-full">
+        <div class="m-3 ml-5">
+            <p>팀페이지</p>
+        </div>
+        <div>
+            <ul class="flex mr-5">
+                <li class="m-3"><a href="#team-profile">팀프로필</a></li>
+                <li class="m-3"><a href="#team-intro">팀소개</a></li>
+                <li class="m-3"><a href="team-personal">개인페이지</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header h-72 bg-cover bg-center" style="background-image: url(/img/header_img.png)">
+        header
+    </div>
+
+    <div id="team-profile" class="profile flex justify-between item-center p-12 mx-8 max-[720px]:p-0">
+        <div class="flex item-center profileContent">
+            <img src="/tail-wind/img/Profile_img.png" class="h-40 rounded-full lion max-[720px]: w-30px"/>
+            <div class="ml-5 max-[720px]:ml-0 profileText">
+                <p class="font-bold text-2xl">멋쟁이어흥팀</p>
+                <p class="m-2">어흥어흥!<br/>
+                호랑이같이 무섭고 빠르게 코딩해요!</p>
+                <span class="ml-1 px-5 bg-red-300 rounded-xl text-white">#1e3i</span>
+                <span class="ml-1 px-5 bg-green-300 rounded-xl text-white">#프론트</span>
+                <span class="ml-1 px-5 bg-violet-300 rounded-xl text-white">#기디</span>
+            </div>
+        </div>   
+        <div>
+            <img src="/tail-wind/img/emoticon.png" class="h-24 emoticon"/>
+        </div>
+    </div>
+
+    <div class="firstSection text-center flex justify-center mb-10 my-3" id="team-intro">
+        <div class=" grid grid-cols-3 shadow-lg p-12 first max-[720px]: p-5">
+            <div class="mx-2">
+                <img src="/tail-wind/img/1.jpg" class="rounded-2xl h-80 w-72 object-cover max-[720px]: w-60 max-[720px]:h-40"/>
+                <div class="my-2">
+                    <p class="font-bold text-xl mb-2 max-[720px]:text-[16px]">코딩</p>
+                    <p>모두 코딩에 관심이 많아요<br/>
+                    공통 관심사라 관련으로<br/>
+                    오랫동안</p>
+                </div>
+            </div>
+            <div class="mx-2">
+                <img src="/tail-wind/img/2.jpg" class="rounded-2xl h-80 w-72 object-cover max-[720px]:w-60 max-[720px]:h-40" />
+                <div class="my-2">
+                    <p class="font-bold text-xl mb-2 max-[720px]:text-[16px]">케이크</p>
+                    <p>모두 코딩에 관심이 많아요<br/>
+                    공통 관심사라 관련으로<br/>
+                    오랫동안</p>
+                </div>
+            </div>
+            <div class="mx-2">
+                <img src="/tail-wind/img/3.jpg" class="rounded-2xl h-80 w-72 object-cover max-[720px]:w-60 max-[720px]:h-40"/>
+                <div class="my-2">
+                    <p class="font-bold text-xl mb-2">그림</p>
+                    <p>모두 코딩에 관심이 많아요<br/>
+                    공통 관심사라 관련으로<br/>
+                    오랫동안</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="secondSection flex justify-center text-center mb-10 my-3" id="team-personal">
+        <div class="grid grid-cols-3 shadow-lg p-12 second max-[720px]: p-5">
+            <div class="mx-2">
+               <a href="https://keen-bublanina-c7b530.netlify.app/"> 
+                <img src="/사진.jpg" class="rounded-2xl h-80 w-72 object-cover max-[720px]:w-60 max-[720px]:h-40"/>
+               </a>
+                <div class="my-2">
+                    <p class="font-bold text-xl mb-2">~</p>
+                    <p>C팀의 공통점으로는 ~가 있습니다</br>
+
+                    </p>
+                </div>
+            </div>
+                
+            
+            
+            <div class="mx-2">
+                <a href="/introduce.html"> 
+                    <img src="#" class="rounded-2xl h-80 w-72 object-cover max-[720px]:w-60 max-[720px]:h-40"/>
+                </a>
+                <div class="my-2">
+                    <p class="font-bold text-xl mb-2">~</p>
+                    <p>C팀의 공통점으로는 ~가 있습니다</br>
+
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mx-2">
+                <a href="/profile/profile.html"> 
+                    <img src="/profile/jump.jpg" class="rounded-2xl h-80 w-72 object-cover max-[720px]:w-60 max-[720px]:h-40"/>
+                </a>
+                <div class="my-2">
+                    <p class="font-bold text-xl mb-2">~</p>
+                    <p>C팀의 공통점으로는 ~가 있습니다</br>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="footer bg-zinc-300 p-10">
+        <div>
+            <p class="font-bold text-xl">contact us!</p>
+            <div class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 mr-2"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+            <a href="chlrhwns1@naver.com">chlrhwns1@naver.com</a>
+            </div>
+        </div>
+        <div class="mt-20 text-center">
+            <p>copyright 2024. 멋쟁이어흥팀 All rights reserved</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
